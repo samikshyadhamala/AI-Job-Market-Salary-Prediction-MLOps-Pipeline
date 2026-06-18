@@ -1,0 +1,7 @@
+apiVersion: 1
+providers:
+  - name: ai_jobs_dashboards
+    type: file
+    updateIntervalSeconds: 10
+    options:
+      path: /etc/grafana/provisioning/dashboards

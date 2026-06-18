@@ -1,0 +1,22 @@
+artifact_path: /home/samiksya/ai_job_market/mlruns/1/models/m-77d32159a5dc49379b834f39cf0377a1/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.10.20
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.13.0
+model_id: m-77d32159a5dc49379b834f39cf0377a1
+model_size_bytes: 278556
+model_uuid: m-77d32159a5dc49379b834f39cf0377a1
+prompts: null
+run_id: 9b35ac63a2944f8daf2c3eb28cdef8c3
+utc_time_created: '2026-06-18 03:27:02.996273'

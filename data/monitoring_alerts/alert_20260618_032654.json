@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-06-18T03:26:54.091060",
+  "alert_message": "DRIFT ALERT | Feature drift share 100.0% > threshold 30.0% | Prediction drift score 0.7041 > threshold 0.15",
+  "metrics": {
+    "data_quality_score": 1.0,
+    "missing_values_count": 0,
+    "schema_errors": 0,
+    "feature_drift_detected": true,
+    "n_drifted_features": 22,
+    "feature_drift_share": 1.0,
+    "prediction_drift_score": 0.7041188778031362,
+    "prediction_drift_detected": true
+  },
+  "action": "Retraining recommended. Data scientist review needed."
+}

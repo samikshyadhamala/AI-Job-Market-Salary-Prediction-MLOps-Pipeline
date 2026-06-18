@@ -1,0 +1,55 @@
+feature,importance
+years_experience,0.16156504
+company_location_Switzerland,0.08277716
+company_location_Norway,0.06091476
+company_location_Denmark,0.059533954
+experience_level_EX,0.059377372
+company_location_Finland,0.048254907
+company_location_Israel,0.047700852
+company_location_Ireland,0.045630343
+company_location_Japan,0.04507419
+company_location_United States,0.044608556
+company_location_China,0.043321896
+company_location_Austria,0.041494295
+company_location_India,0.04022199
+company_location_South Korea,0.039591882
+company_size_L,0.032188892
+experience_level_SE,0.030577378
+company_size_S,0.019064775
+company_location_United Kingdom,0.017784687
+company_location_Netherlands,0.0141222915
+company_location_Singapore,0.010617111
+experience_level_EN,0.009188882
+company_location_Sweden,0.0048177657
+company_location_Germany,0.0036271003
+company_location_Australia,0.0025205316
+industry_Consulting,0.0016582824
+employment_type_PT,0.0016344966
+industry_Media,0.0015413441
+company_location_Canada,0.001537896
+industry_Manufacturing,0.0014552824
+industry_Telecommunications,0.0014379853
+education_required_Master,0.001398156
+industry_Government,0.0013166703
+industry_Transportation,0.0012913004
+company_size_M,0.0012750024
+job_description_length,0.0012544465
+benefits_score,0.0012427664
+employment_type_FL,0.0012423333
+company_location_France,0.0012288556
+employment_type_CT,0.0011978626
+industry_Finance,0.0011554754
+industry_Retail,0.0011538826
+education_required_Bachelor,0.0011319997
+education_required_PhD,0.0011281117
+employment_type_FT,0.0011083042
+industry_Automotive,0.0010688094
+education_required_Associate,0.0010605796
+industry_Gaming,0.0010554442
+remote_ratio,0.0010266344
+industry_Technology,0.0010108663
+industry_Energy,0.00094425335
+industry_Healthcare,0.0008185338
+industry_Education,0.0007010109
+experience_level_MI,0.0006793941
+industry_Real Estate,0.0006673518

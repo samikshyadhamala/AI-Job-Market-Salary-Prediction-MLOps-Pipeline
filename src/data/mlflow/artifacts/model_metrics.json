@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-06-10T05:52:35.359075",
+  "model_type": "XGBRegressor",
+  "tuned": false,
+  "cv_results": {
+    "cv_mean": 0.89786777612909,
+    "cv_std": 0.003293492886033584,
+    "cv_scores": [
+      0.901236994463975,
+      0.9005204969248555,
+      0.8956718094059763,
+      0.8925119992794416,
+      0.8993975805712018
+    ],
+    "cv_rmse_mean": 18054.402179488552,
+    "cv_rmse_scores": [
+      17478.974858060756,
+      18099.68013260069,
+      18157.912536189833,
+      18519.868970636955,
+      18015.574399954516
+    ],
+    "needs_tuning": "False"
+  },
+  "eval_results": {
+    "train_metrics": {
+      "r2": 0.9157807250193046,
+      "rmse": 16400.90319150043,
+      "mae": 12440.0611171875,
+      "mape": 0.11157159932236235
+    },
+    "test_metrics": {
+      "r2": 0.8996784821701888,
+      "rmse": 17958.170468421667,
+      "mae": 13590.58193359375,
+      "mape": 0.12037732276943147
+    }
+  },
+  "hyperparameters": {
+    "n_estimators": 100,
+    "learning_rate": 0.1,
+    "max_depth": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 1,
+    "objective": "reg:squarederror",
+    "random_state": 42,
+    "verbosity": 0,
+    "n_jobs": -1
+  }
+}

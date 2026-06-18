@@ -1,0 +1,4 @@
+2026-06-16 03:07:07,784 - src.api.main - INFO - Application startup
+2026-06-16 03:13:08,474 - src.api.main - INFO - Application startup
+2026-06-16 03:13:08,478 - src.api.main - INFO - Application shutdown
+2026-06-16 03:14:48,923 - src.api.routes - INFO - Received prediction request: string

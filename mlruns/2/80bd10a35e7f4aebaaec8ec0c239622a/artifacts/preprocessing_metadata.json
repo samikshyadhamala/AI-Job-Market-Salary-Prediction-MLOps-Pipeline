@@ -1,0 +1,75 @@
+{
+  "pipeline_execution_time": "2026-06-18T03:25:00.992587",
+  "target_col": "salary_usd",
+  "model_features": [
+    "years_experience",
+    "remote_ratio",
+    "benefits_score",
+    "days_open",
+    "num_skills",
+    "same_country",
+    "exp_x_skills",
+    "benefits_x_exp",
+    "job_title",
+    "company_location",
+    "company_size",
+    "employee_residence",
+    "education_required",
+    "industry",
+    "salary_currency",
+    "experience_encoded",
+    "emp_full_time",
+    "emp_part_time",
+    "emp_freelance",
+    "remote_onsite",
+    "remote_remote"
+  ],
+  "numerical_cols": [
+    "years_experience",
+    "remote_ratio",
+    "benefits_score",
+    "days_open",
+    "num_skills",
+    "same_country",
+    "exp_x_skills",
+    "benefits_x_exp"
+  ],
+  "encoded_cols": [
+    "experience_encoded",
+    "job_title_encoded",
+    "company_location_encoded",
+    "company_size_encoded",
+    "employee_residence_encoded",
+    "education_required_encoded",
+    "industry_encoded",
+    "salary_currency_encoded"
+  ],
+  "categorical_cols": [
+    "job_title",
+    "company_location",
+    "company_size",
+    "employee_residence",
+    "education_required",
+    "industry",
+    "salary_currency"
+  ],
+  "ordinal_cols": [
+    "experience_encoded"
+  ],
+  "boolean_cols": [
+    "emp_full_time",
+    "emp_part_time",
+    "emp_freelance",
+    "remote_onsite",
+    "remote_remote"
+  ],
+  "feature_count": 21,
+  "train_shape": [
+    12000,
+    22
+  ],
+  "test_shape": [
+    3000,
+    22
+  ]
+}
