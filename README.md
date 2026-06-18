@@ -239,17 +239,6 @@ Data Quality: 98.5%
 │   └── mlflow.db
 ├── data
 │   ├── monitoring_alerts/
-│   │   ├── alert_20260611_020944.json
-│   │   ├── alert_20260611_022809.json
-│   │   ├── alert_20260611_025144.json
-│   │   ├── alert_20260611_025240.json
-│   │   ├── alert_20260611_025331.json
-│   │   ├── alert_20260611_121655.json
-│   │   ├── alert_20260612_071023.json
-│   │   ├── alert_20260612_161352.json
-│   │   ├── alert_20260612_171754.json
-│   │   ├── alert_20260616_032148.json
-│   │   └── alert_20260618_032654.json
 │   ├── monitoring_reports/
 │   │   ├── data_quality.html
 │   │   ├── feature_drift.html
@@ -282,32 +271,9 @@ Data Quality: 98.5%
 ├── logs/
 │   └── app.log
 ├── mlartifacts/
-│   └── 2/
-│       ├── 364287e950844814abb50d1ecff9953e/artifacts/:model outputs
-│       ├── 399d050c9c9e44c1b53f18349b2b16ac/artifacts/:model outputs
-│       ├── 795b9f1396944075a84aa9100bd50e00/artifacts/:model outputs
-│       ├── a265c0d42afc4d44a1b021eccaf449c1/artifacts/:model outputs
-│       ├── b17b094a7cb3438989852d4178c8f829/artifacts/:model outputs
-│       ├── ea295daff6f04e94877d52d08665c7a3/artifacts/:model outputs
-│       └── models/
-│           ├── m-026241b361344b1aab8adae56eb1ac4b/artifacts/:conda, MLmodel, model.ubj, python_env.yaml, requirements.txt
-│           ├── m-05a9e2fcee7d4019938c44f684f09737/artifacts/:conda, MLmodel, model.ubj, python_env.yaml, requirements.txt
-│           ├── m-56d948ec0e5d4e5fa0dbbc4ce51f80b4/artifacts/:conda, MLmodel, model.ubj, python_env.yaml, requirements.txt
-│           ├── m-78652934fa92420a96bee9817aa8747f/artifacts/:conda, MLmodel, model.ubj, python_env.yaml, requirements.txt
-│           ├── m-a291b300387e48e4af6eb9d99f28d3a7/artifacts/:conda, MLmodel, model.ubj, python_env.yaml, requirements.txt
-│           └── m-fc0a4d0c4082498ebd026e7031c56130/artifacts/:conda, MLmodel, model.ubj, python_env.yaml, requirements.txt
 ├── mlflow_store/
 │   └── mlflow.db
 ├── mlruns/
-│   ├── 1/
-│   │   ├── 88eac6b0d7144028ba1d0a86c0936061/artifacts/:model outputs {feature_importance.csv, model_metrics.json, model_parameters.json, predictions_vs_actual.png, preprocessor.pkl, xgboost_final_model.pkl}
-│   │   ├── 9b35ac63a2944f8daf2c3eb28cdef8c3/artifacts/:model outputs {feature_importance.csv, model_metrics.json, model_parameters.json, predictions_vs_actual.png, preprocessor.pkl, xgboost_final_model.pkl}
-│   │   └── models/
-│   │       ├── m-497303c089e94591ac670842ffe37de1/artifacts/:conda, MLmodel, model.ubj, python_env.yaml, requirements.txt
-│   │       └── m-77d32159a5dc49379b834f39cf0377a1/artifacts/:conda, MLmodel, model.ubj, python_env.yaml, requirements.txt
-│   └── 2/
-│       ├── 0a9459ffbec146fb80c1c4bf39309d59/artifacts/:preprocessing_metadata.json, preprocessor.pkl, profiling_report.html
-│       └── 80bd10a35e7f4aebaaec8ec0c239622a/artifacts/:preprocessing_metadata.json, preprocessor.pkl, profiling_report.html
 ├── pictures_proof/
 │   ├── figure_48.html ... figure_59.html
 │   └── Screenshot from 2026-06-18 :png files
@@ -319,12 +285,7 @@ Data Quality: 98.5%
 │   │   │   └── processed/
 │   │   ├── logs/
 │   │   ├── mlartifacts/
-│   │   │   ├── 1/ ... 2/:model run artifacts (feature_importance.csv, model_metrics.json, model_parameters.json, predictions_vs_actual.png, preprocessor.pkl, xgboost_final_model.pkl)
-│   │   │   └── models/: m-... artifacts
 │   │   ├── mlflow/
-│   │   │   └── artifacts/:feature_importance.csv, model_metrics.json, model_parameters.json, predictions_vs_actual.png, xgboost_baseline_model.pkl, xgboost_final_model.pkl
-│   │   ├── mlruns/1/:preprocessing runs (preprocessing_metadata.json, preprocessor.pkl, profiling_report.html, test.parquet, train.parquet*)
-│   │   ├── __pycache__/:app, fastapi_deployment, ingestion, preprocessing, training_process, monitoring pyc files
 │   │   ├── app.py
 │   │   ├── fastapi_deployment.py
 │   │   ├── ingestion.py
@@ -399,7 +360,7 @@ airflow webserver
 ## 4. Start MLflow Server
 
 ```bash
-mlflow server
+mlflow serveror mlflow ui
 ```
 
 Access:
