@@ -26,6 +26,8 @@ The final **XGBoost regression model** achieved:
 
 ---
 
+# Data source link : https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025 
+
 # 🏗️ Pipeline Architecture
 
 The MLOps workflow is divided into five operational stages:
